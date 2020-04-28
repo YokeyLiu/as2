@@ -1,0 +1,152 @@
+/*
+ * Add your CSS styles to this file.
+ */
+
+
+header img{
+  position: abolute;
+}
+
+header{
+  background-color:#3AA7F7 ;
+}
+
+h1.site-title{
+  /*background-color:#3AA7F7 ;*/
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 100;
+  margin:0px;
+  margin-left:150 px;
+  position: relative;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 0px;
+}
+
+h1{
+  color:white;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #3AA7F7;
+    background: white;
+}
+.twit-container {
+  min-height: 200px;
+  margin: 5px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* overflow: scroll; */
+}
+
+.navlist {
+  background-color: white;
+  display:flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fa-bullhorn{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  font-size: 25px;
+}
+
+#navbar-search-button{
+  position: absolute;
+  right: 50px;
+  color: black;
+  background-color: white;
+  padding-top: 5px;
+  border: none;
+}
+#navbar-search-button:hover{
+  color:#3AA7F7;
+}
+#navbar-search-input{
+  position: absolute;
+  right: 50px;
+  background-color: #eee;
+}
+#navbar-search-input:focus{
+  background-color: #fff;
+}
+
+
+
+li{
+  display: inline;
+  justify-content: space-between;
+  border-left: 5px solid white;
+  border-right: 35px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+body{
+  font-family:'Roboto';
+  background-color: #F1F1F1;
+}
+
+.twit-author {
+  position: absolute;
+  font-weight: bold;
+  color: black;
+
+}
+
+.twit {
+  background-color: #FFFFFF;
+  color:black;
+  min-width: 300px;
+  min-height: 140px;
+  max-width:400px;
+  margin: 10px ,5px ,5px ;
+  padding: 10px;
+  border: 3px solid #F1F1F1;
+  flex: 1 200px;
+  font-size:15px;
+}
+
+.twit-text{
+  position: relative;
+  top: -30px;
+  left: 50px;
+  font-weight: normal;
+  width : 250px;
+}
+
+#create-twit-button{
+  position: fixed;
+  color: white;
+  background: red;
+  box-shadow: 3px 3px 5px grey;
+  margin: 0;
+  border-radius: 50%;
+  border: none;
+  right: 50px;
+  bottom: 50px;
+  width:60px;
+  height:60px;
+  font-size: 25px;
+}
+
+#create-twit-button:hover{
+  cursor: pointer;
+  background: #3AA7F7;
+  color: whitesmoke;
+  border: 0.1px solid lightgray;
+}
